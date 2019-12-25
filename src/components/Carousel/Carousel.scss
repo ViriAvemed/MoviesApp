@@ -1,0 +1,28 @@
+.carousel-movies {
+  width: 100vw;
+  padding: 0;
+  margin: 0;
+
+  .carousel-caption {
+    text-align: center;
+    background-color: #0000005e;
+    border-radius: 5px;
+    bottom: 170px!important;
+
+    h1 {
+      font-weight: bolder !important;
+      font-size:200%;
+      line-height: 2;
+    }
+
+    Button {
+      width:25%;
+      font-size: 100%;
+      font-weight: bolder;
+    }
+
+
+  }
+}
+
+

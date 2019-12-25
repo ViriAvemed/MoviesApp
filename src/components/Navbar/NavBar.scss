@@ -1,0 +1,56 @@
+.navbar {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  z-index: 4;
+  width: 100%;
+}
+
+  .nav-bar {
+    background-color: rgba(0,0,0,.9)!important;
+    padding: 0;
+    margin: 0;
+    height: 10vh;
+    border-bottom: 1px solid #FFD861;
+
+
+    &_logo {
+      width: 34%;
+      margin-left: 34%;
+      margin-right: 0;
+    }
+
+    .navbar-brand {
+      width: 10%;
+      font-size: 2.5rem;
+      line-height: inherit;
+      white-space: nowrap;
+      font-family: "Roboto Medium", sans-serif;
+      letter-spacing: 15px;
+    }
+
+    .basic-navbar {
+      margin-left: 23%;
+    }
+
+    a {
+      color: white;
+      font-size: 1.2em;
+      font-weight: 600;
+      margin: 2% 4%;
+
+      &:hover {
+        color: dodgerblue;
+      }
+    }
+    p {
+      font-weight: bolder;
+      color: #FFD861;
+      padding: 0;
+      margin-bottom: 0;
+      text-shadow: 0.2em 0.2em 0.1em #600, -0.3em 0.1em 0.1em #060, 0.2em -0.2em 0.1em #006;
+    }
+
+
+  }
+
