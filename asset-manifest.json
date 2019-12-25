@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/ViriAvemed/MoviesApp.git/static/css/main.bfcf5167.chunk.css",
-    "main.js": "/ViriAvemed/MoviesApp.git/static/js/main.ed909c03.chunk.js",
-    "main.js.map": "/ViriAvemed/MoviesApp.git/static/js/main.ed909c03.chunk.js.map",
-    "runtime-main.js": "/ViriAvemed/MoviesApp.git/static/js/runtime-main.79e3b6f9.js",
-    "runtime-main.js.map": "/ViriAvemed/MoviesApp.git/static/js/runtime-main.79e3b6f9.js.map",
-    "static/css/2.777dbe41.chunk.css": "/ViriAvemed/MoviesApp.git/static/css/2.777dbe41.chunk.css",
-    "static/js/2.4da7ef58.chunk.js": "/ViriAvemed/MoviesApp.git/static/js/2.4da7ef58.chunk.js",
-    "static/js/2.4da7ef58.chunk.js.map": "/ViriAvemed/MoviesApp.git/static/js/2.4da7ef58.chunk.js.map",
-    "index.html": "/ViriAvemed/MoviesApp.git/index.html",
-    "precache-manifest.fbb8ab4e9c6b2bc893e96996a9d435cf.js": "/ViriAvemed/MoviesApp.git/precache-manifest.fbb8ab4e9c6b2bc893e96996a9d435cf.js",
-    "service-worker.js": "/ViriAvemed/MoviesApp.git/service-worker.js",
-    "static/css/2.777dbe41.chunk.css.map": "/ViriAvemed/MoviesApp.git/static/css/2.777dbe41.chunk.css.map",
-    "static/css/main.bfcf5167.chunk.css.map": "/ViriAvemed/MoviesApp.git/static/css/main.bfcf5167.chunk.css.map",
-    "static/js/2.4da7ef58.chunk.js.LICENSE": "/ViriAvemed/MoviesApp.git/static/js/2.4da7ef58.chunk.js.LICENSE"
+    "main.css": "/ViriAvemed/MoviesApp/static/css/main.bfcf5167.chunk.css",
+    "main.js": "/ViriAvemed/MoviesApp/static/js/main.4fdabb27.chunk.js",
+    "main.js.map": "/ViriAvemed/MoviesApp/static/js/main.4fdabb27.chunk.js.map",
+    "runtime-main.js": "/ViriAvemed/MoviesApp/static/js/runtime-main.e98b7098.js",
+    "runtime-main.js.map": "/ViriAvemed/MoviesApp/static/js/runtime-main.e98b7098.js.map",
+    "static/css/2.777dbe41.chunk.css": "/ViriAvemed/MoviesApp/static/css/2.777dbe41.chunk.css",
+    "static/js/2.4da7ef58.chunk.js": "/ViriAvemed/MoviesApp/static/js/2.4da7ef58.chunk.js",
+    "static/js/2.4da7ef58.chunk.js.map": "/ViriAvemed/MoviesApp/static/js/2.4da7ef58.chunk.js.map",
+    "index.html": "/ViriAvemed/MoviesApp/index.html",
+    "precache-manifest.8d2c70899c6cfcf61d6ee438294291c3.js": "/ViriAvemed/MoviesApp/precache-manifest.8d2c70899c6cfcf61d6ee438294291c3.js",
+    "service-worker.js": "/ViriAvemed/MoviesApp/service-worker.js",
+    "static/css/2.777dbe41.chunk.css.map": "/ViriAvemed/MoviesApp/static/css/2.777dbe41.chunk.css.map",
+    "static/css/main.bfcf5167.chunk.css.map": "/ViriAvemed/MoviesApp/static/css/main.bfcf5167.chunk.css.map",
+    "static/js/2.4da7ef58.chunk.js.LICENSE": "/ViriAvemed/MoviesApp/static/js/2.4da7ef58.chunk.js.LICENSE"
   },
   "entrypoints": [
-    "static/js/runtime-main.79e3b6f9.js",
+    "static/js/runtime-main.e98b7098.js",
     "static/css/2.777dbe41.chunk.css",
     "static/js/2.4da7ef58.chunk.js",
     "static/css/main.bfcf5167.chunk.css",
-    "static/js/main.ed909c03.chunk.js"
+    "static/js/main.4fdabb27.chunk.js"
   ]
 }
