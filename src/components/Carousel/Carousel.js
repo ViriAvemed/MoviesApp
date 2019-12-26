@@ -4,7 +4,6 @@ import './Carousel.scss';
 import {Button, Col, Row, Carousel, Spinner} from "react-bootstrap";
 
 
-
 const CarouselMovies = (props) => {
     const {movies} = props;
     if(movies.loading || !movies.result){

@@ -1,13 +1,13 @@
 
 .movie {
-  height: calc(100vh - 64px);
+  height:100vh;
+  width: 100vw;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   line-height: 2;
   font-family: "Roboto Medium", sans-serif;
   text-align: justify;
-
 
   &_dark {
     position: absolute;
@@ -18,10 +18,12 @@
     background-color: #000000c4;
    }
 
-  .row-poster {
-    height:100%;
+  &-poster {
+    height:100vh;
+    width: 100vw;
     display: flex;
     align-items: center;
+    padding-top: 5%!important;
   }
 
   &_poster {
@@ -42,7 +44,7 @@
     color: white;
     display: flex;
     align-items: center;
-    font-size: 1em;
+    font-size: 100%;
 
 
     &-header {

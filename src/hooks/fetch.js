@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 
+//these functions will be reused in the components to call the api information
 const useFetch = (url, options) => {
     const [loading, setLoading] = useState(true);
     const [result, setResult] = useState(null);

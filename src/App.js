@@ -9,7 +9,7 @@ import store from "./store";
 
 
 // Router
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 
 // Components
 import NavBar from "./components/Navbar";
@@ -33,17 +33,16 @@ const App = () => {
 
         <Provider store={store}>
             <Container  fluid={true} >
-                <Router>
+                <Router basename="/MoviesApp">
                     <Row>
                         <Col className="m-0 p-0">
                             <NavBar/>
                         </Col>
-
                     </Row>
-
                     <Row>
                         <Col>
                             <Switch>
+                                {/*<Redirect exact from='/' to='/MoviesApp'/>*/}
                                 <Route path="/" exact={true}>
                                     <Home/>
                                 </Route>

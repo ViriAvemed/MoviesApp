@@ -5,11 +5,12 @@ import MovieCatalog from "../components/MovieCatalog";
 import Pagination from '../components/Pagination';
 import Footer from "../components/Footer";
 
+// Component of new movies
 const NewMovies = () => {
-
     const[ movieList, setMovieList] = useState([]);
     const [page, setPage] = useState(1);
 
+    // An asynchronous promise is used to update the information from the source api
     useEffect( () => {
         (async () => {
             const response = await fetch(
@@ -29,12 +30,12 @@ const NewMovies = () => {
         <Row >
             <Row className="w-100">
                 <Col className="d-flex justify-content-center">
-                    <h1 className="text-center mb-5 h1" style= {{ marginTop: '10%'}}>
+                    <h1 className="text-center h1 mt-5 pt-5 mb-5 " >
                         ÚLTIMOS ESTRENOS
                     </h1>
                 </Col>
             </Row>
-            <CardColumns style={{width:'100vw', padding:'0 10%'}}>
+            <CardColumns style={{width:'100vw', padding:'0 10%'}} className="card-column">
                 {movieList.results ? (
                     <MovieCatalog movies={movieList}/>
                 ) : (
@@ -42,10 +43,10 @@ const NewMovies = () => {
                         <Spinner animation="grow" />
                     </Col>
                 )}
-
             </CardColumns>
             <Row className="w-100 p-2">
                 <Col className="d-flex justify-content-center">
+                  /*A component was created that contains the page of all the films*/
                     <Pagination
                         className="pagination"
                         currentPage={movieList.page}

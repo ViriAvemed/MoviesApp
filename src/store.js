@@ -2,7 +2,7 @@ import { createStore} from "redux";
 import rootReducer from "./reducers";
 import { getStateLocalStorage, setStateLocalStorage } from "./utils/localStorage";
 
-
+// Store allow the application to know the global state of the components
 const localStorageState = getStateLocalStorage();
 const store = createStore (
     rootReducer,

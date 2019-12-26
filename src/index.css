@@ -5,15 +5,15 @@ body {
   margin: 0;
   padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  monospace;
 }
 
 
@@ -29,5 +29,52 @@ code {
   font-weight: bolder;
   font-size: 4em;
   color: white;
+
 }
+
+.my-fav-card {
+  width: 50%;
+  margin-left:24%;
+}
+
+
+@media (max-width: 768px)  {
+  .card-columns {
+    column-count: 2!important;
+  }
+
+  h1 {
+    padding-top: 5%;
+  }
+
+  .my-fav-card {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+}
+
+@media (max-width: 430px) {
+  .card-columns {
+    column-count: 1 !important;
+
+  }
+  .movie-card {
+    width: 100%!important;
+  }
+
+  h1 {
+    padding-top: 15%;
+  }
+
+  .my-fav-card {
+  width: 100%;
+  margin-left: 0;
+  }
+
+}
+
+
+
+
 

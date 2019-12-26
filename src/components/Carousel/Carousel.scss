@@ -25,4 +25,21 @@
   }
 }
 
+@media(max-width: 768px){
+
+  .carousel-movies {
+    z-index: 2;
+
+    .carousel-caption h1 {
+      font-size: 120%;
+      letter-spacing: 2px;
+    }
+
+    .carousel-caption Button {
+      width: 50%;
+    }
+  }
+
+
+}
 
